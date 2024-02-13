@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+
+   <title>Book a vacation</title>
+</head>
+<body>
+   <h1>
+      Book a vacation on a Japanese island
+   </h1>
+   <form mehtod="post" action="">
+      <label>Choose island:<select name="island">
+         <option value="">-- select option --</option>
+         <option value="kyushu">Kyushu</option>
+         <option value="shikoku">Shikoku</option>
+         <option value="okinawa">Okinawa</option>
+         <option value="honshu">Honshu</option>
+      </select>
+      </label>
+      <div class="dates">
+     <label>Arriving<input type="date" name="arrive_date"></label>
+     <label>Departing<input type="date" name="depart_date"></label></div>
+     <div class="names">
+      <label>Name:<input type='text' name="first_name"></label>
+      <label>Surname:<input type='text' name="surname"></label>
+     </div>
+     <div class="address">
+      <label>Adress<input type='text' name="address"></label>
+      <label>City<input type='text' name="city"></label>
+      <label>Country<select name="country">
+         <option value="">-- select option --</option>
+         <option value="it">Italy</option>
+         <option value="fr">France</option>
+         <option value="ch">China</option>
+      </select></label>
+      <label>Zip<input type='text' name="zip"></label>
+     </div>
+     <label>
+      <input type="checkbox" name="remember_me">Remember me
+     </label>
+     <div class="submit">
+      <input type="submit">
+      <input type="reset">
+     </div>
+   </form>
+   
+</body>
+</html>

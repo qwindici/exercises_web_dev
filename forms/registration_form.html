@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Registration Form</title>
+</head>
+<body>
+   <h1>Sign up</h1>
+   <form method="post" action="">
+      <h3>General information</h3>
+   <div class="names">
+
+      <label>Name<input type="text" name="first_name"></label>
+      <label>Middle Name<input type="text" name="middle_name"></label>
+      <label>Surname<input type="text" name="surname"></label>
+   </div>
+   <div class="address">
+      <label>Street<input type="text" name="street"></label>
+      <label>Number<input type="text" name="street_number"></label>
+      <label>Postal Code<input type="text" name="postal_code"></label>
+      <label>State<input type="text" name="state"></label>
+   </div>
+   <div class="contacts">
+      <label>Telephone <input type="text"></label>
+      <label>Email<input type="email"></label>
+   </div>
+   <h3>Gender</h3>
+   <div class="gender">
+      
+      <ul>
+<li><label><input type="radio" name="gender" value="f">Female</label></li>
+      <li><label><input type="radio" name="gender" value="m">Male</label></li>
+      <li><label><input type="radio" name="gender" value="x">Other</label></li>
+      </ul>
+   </div>
+   <h3>Favorite books</h3>
+   <div class="book_likes">
+      
+         <label><input type='checkbox' name="book_likes" value="sci_fi">Sci-fi</label>
+         <label><input type='checkbox' name="book_likes" value="action">Action</label>
+         <label><input type='checkbox' name="book_likes" value="romance">Romance</label>
+         <label><input type='checkbox' name="book_likes" value="historic">Historic</label>
+   </div>
+   <div class="description">
+      
+      <label><h3>Describe yourself briefly:</h3><textarea name="description"></textarea></label>
+   </div>
+   <div>
+      <input type="submit">
+      <input type="reset">
+   </div>
+   </form>
+   
+</body>
+</html>
