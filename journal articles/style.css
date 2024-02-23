@@ -1,0 +1,84 @@
+﻿h1 {
+   text-align: center;
+   text-transform: uppercase;
+}
+
+h2 {
+   text-align: center;
+   font-style: italic;
+   font-weight: 100;
+}
+
+h3 {
+   text-align: center;
+}
+
+img {
+   width: 70%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+figcaption {
+   text-align: center;
+}
+
+p {
+   margin-bottom: 30px;
+   line-height: 1.5;
+}
+
+p.date { 
+   display: block; 
+   text-align: right;
+}
+
+p.first:first-letter {
+    font-size: 4.5em;
+    padding-right: 7px;
+    padding-bottom: -7px;
+    line-height: .75;
+    margin: 0;
+    float: left;
+    margin-left: -3px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+p.final {
+   font-style: italic;
+}
+
+
+
+.container {
+   width: 21cm; 
+   margin: auto;
+  display: block;
+
+}
+
+.img-description {
+   font-style: italic;
+}
+
+.text {
+   text-align: justify;
+   font-size: 15pt;
+}
+
+.by {
+   font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.by.artist {
+   font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #b4b4b4; 
+
+}
+
