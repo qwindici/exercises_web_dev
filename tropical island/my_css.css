@@ -1,0 +1,40 @@
+.grid-2-col {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 2%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "img-1 txt-1";
+}
+
+.center {
+
+  display: flex;
+  justify-content: center;
+}
+
+.img-1 { grid-area: img-1; }
+
+.img-1 img {
+   width: 100%;
+}
+
+.txt-1 { grid-area: txt-1; }
+
+.carousel {
+   width: 50%;
+   height: 400px;
+}
+
+.carousel img {
+   width: 50%;
+   height: 400px;
+}
+
+.card-text {
+   text-align: justify;
+}
+
+.row {
+   width: inherit;
+}
